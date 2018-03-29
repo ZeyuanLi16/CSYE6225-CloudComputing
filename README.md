@@ -7,6 +7,7 @@
 | --- | --- |--- | --- |--- | 
 |	Student/	|	1	|	1	|	1	|	0	|
 |	Student/{studentid}	|	1	|	0	|	0	|	1	|
+|	Student/{studentid}/course/{courseid} |	 0|	 0 |	1 |	1|	
 |	Program/	|	1	|	0	|	0	|	0	|
 |	Program/{progranid}	|	1	|	1	|	1	|	1	|
 |	Program/{progranid}/course	|	1	|	0	|	0	|	0	|
@@ -22,3 +23,5 @@
 |	Professor/	|	1	|	1	|	1	|	0	|
 |	Professor/{professorid}	|	1	|	0	|	0	|	1	|
 |	Professor/{professorid}/course	|	1	|	0	|	0	|	0	|
+
+* For now, you have to manually add/cancel course subscription to students using : Student/{studentid}/course/{courseid}
